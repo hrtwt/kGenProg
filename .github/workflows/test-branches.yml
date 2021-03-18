@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        java: ['11', '12', '13']
+        java: ['11', '16']
         platform: [ubuntu-latest, windows-latest, macos-latest]
     steps:
     - name: Git checkout
